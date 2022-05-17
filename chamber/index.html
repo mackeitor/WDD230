@@ -1,53 +1,59 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
-    <link rel="stylesheet" href="js/chamber.js">
+    <!-- <link rel="stylesheet" href="css/medium.css"> -->
+    <!-- <link rel="stylesheet" href="css/large.css"> -->
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Josefin+Slab:wght@100&family=Libre+Franklin:wght@100&family=Oswald:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Cormorant:ital,wght@0,300;1,400&family=Josefin+Slab:wght@100&family=Libre+Franklin:wght@100&family=Oswald:wght@200&display=swap" rel="stylesheet">
     <title>Chilpancingo Chamber of Commerce</title>
-</head>
-
-<body>
-    
+  </head>
+  <body>
     <header>
-        <img src="images/logo_chamber.png" alt="myLogo">
-        <section class="headings">
-            <h1>Chilpancingo</h1>
-            <h3>Chamber of Commerce</h3>
-        </section>
-            <nav>
-                <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
-                <ul id="primaryNav">
-                    
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Contact</a></li> 
-                    <li><a href="#">Our purpose</a></li>   
-                </ul>
-            </nav>
-            <div class="date"></div>
-            <aside></aside>   
+      <div class="header1">
+        <img src="images/logo_chamber.png" alt="myLogo" />
+        <div class="headings">
+          <h1>Chilpancingo</h1>
+          <h2>Chamber of Commerce</h2>
+        </div>
+        <div class="social-media">
+          f i
+        </div>
+        <nav>
+          <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+          <ul id="primaryNav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Our purpose</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="date"></div>
     </header>
-    <main>
-        
-    </main>
+      <!-- <main>
 
-</body>
-    <footer>
-        <div class="logoFooter">
-            <img src="images/logo_chamber.png" alt="myLogo">
-            <p>Chilpancingo Chamber of Commerce</p>
-            <p>Juan R Escudero 11 Chilpancingo, Guerrero</p>
-        </div>    
-            <p class="footer-sentence">&copy; 2022 | Manuel Said Nava Ruiz | Guerrero, Mexico </p>
-            <p>chilpochamber@gmail.com</p>
-            <div id="lastModified"></div>
-         <script src="js/chamber.js" type="text/javascript"></script>
-    </footer>
+      </main>-->
+      <footer>
+        <img src="images/logo_chamber.png" alt="myLogo">
+        <h3>Chilpancingo Chamber of Commerce</h3>
+        <p>Juan R Escudero 11 Chilpancingo, Guerrero</p>
+        <a id="mail" href="mailto:chilpochamber@gmail.com">
+          chilpochamber@gmail.com
+        </a>
+
+        <div class="location">
+          <a target="_blank" id="mapLink" href="https://goo.gl/maps/duAKjKgSqX15i6wNA">Location Map</a>
+        </div>
+        
+        <div class="logoFooter"></div>
+              <p class="footer-sentence">&copy; 2022 | Manuel Said Nava Ruiz | Guerrero, Mexico </p>
+
+          <div id="lastModified"></div> 
+      </footer>
+      <script src="js/chamber.js" type="text/javascript"></script>
+  </body>
 </html>
