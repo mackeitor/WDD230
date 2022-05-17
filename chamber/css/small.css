@@ -35,6 +35,25 @@ header .header1 {
 	padding: 10px;
 }
 
+.social-media {
+	display:flex;
+	align-items: center;
+	transition: 0.2s;
+	text-decoration: none;
+}
+.facebook{
+	padding: 5px;
+	color: rgb(51, 51, 106)
+	
+}
+.twitter{
+	padding: 5px;
+	color: rgb(51, 51, 106)
+}
+.social-media :hover{
+	color:#333;
+}
+
 #date {
 	margin: 0.5rem;
 	border: 1px solid #bbb;
@@ -78,10 +97,6 @@ footer h3 {
 	justify-content: center;
 }
 
-.location img {
-	max-width: 20px;
-	margin-right: 10px;
-}
 
 #lastModified {
 	text-align: center;
