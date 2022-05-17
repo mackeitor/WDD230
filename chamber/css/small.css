@@ -1,3 +1,13 @@
+* {
+	box-sizing: border-box;
+}
+
+header{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	
+}
 
 body {
 	height: 100vh;
@@ -19,4 +29,13 @@ aside {
 	border: 1px solid #bbb;
 	padding: 0.75rem;
 	background-color: #eee;
+}
+
+#lastModified {
+	text-align: center;
+	font-size: smaller;
+}
+
+footer{
+	align-items: center;
 }
