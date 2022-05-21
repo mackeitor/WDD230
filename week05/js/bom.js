@@ -20,6 +20,6 @@ button.addEventListener('click', () => {
     list.removeChild(chapterName);
   });
 
-  
+  input.focus();
 });
 
