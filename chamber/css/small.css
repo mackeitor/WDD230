@@ -1,10 +1,16 @@
 * {
 	box-sizing: border-box;
 }
+main{
+	background-color: #c4cad0;
+	text-align: center;
+}
 
 header {
 	background-color: #655560;
 	padding: 12px;
+	border-style: solid;
+	
 }
 
 header .header1 {
@@ -15,11 +21,13 @@ header .header1 {
 
 .header1 img {
 	max-width: 60px;
+	box-shadow: 5px 8px 12px black;
 }
 
 .header1 .headings {
 	padding: 10px;
 	color: #fcf7ff;
+	font-size: 18px;
 }
 
 .header1 .headings h1 {
@@ -28,7 +36,7 @@ header .header1 {
 }
 
 .header1 .headings h2 {
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .header1 .social-media {
@@ -44,12 +52,13 @@ header .header1 {
 .facebook{
 	
 	padding: 5px;
-	color: rgb(51, 51, 106)
+	color: rgb(208, 117, 60)
 	
 }
 .twitter{
 	padding: 5px;
-	color: rgb(51, 51, 106)
+	color: rgb(208, 117, 60)
+	
 }
 .social-media :hover{
 	color:#333;
@@ -63,17 +72,22 @@ header .header1 {
 	text-align: center;
 	color: white;
 	font-weight: bold;
+	box-shadow: 5px 8px 12px black;
 }
 
 footer {
-	background-color: #a4969b;
+	background-color: #655560;
 	text-align: center;
 	padding: 10px;
+	color:white;
+	border-style: solid;
+	border-color: black;
 }
 
 footer img  {
 	margin-bottom: 10px;
 	width: 60px;
+	box-shadow: 5px 8px 12px black;
 }
 
 footer h3 {
@@ -111,15 +125,14 @@ nav button{
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: #555;
+    color: white;
+	box-shadow: 5px 8px 12px black;
 }
 
-nav{
-    background-color: #eee;
-}
+
 /*removing borders*/
 nav ul{
-    list-style-type: none;
+    
     padding: 0;
     margin: 0;
 }
@@ -128,8 +141,9 @@ nav ul li a{
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #333;
+    color: white;
     border-top: 1px solid rgba(0,0,0.5);
+	
 }
 
 nav ul li.active a {
@@ -149,3 +163,97 @@ nav ul.open {display: block;}
 
 #hamburguerBtn.open span:nth-child(1) {display: none;}
 #hamburguerBtn.open span:nth-child(2) {display: block;}
+
+.mainimg{
+	width: 100%;
+	height:300px;
+	object-fit: cover;
+}
+
+.picheader{
+	position: absolute;
+	top: 20px;
+	background-color: #878c8f;
+	color: white;
+	padding: 1px;
+	left: 10%;
+	right: 10%;
+	border-radius: 20px;
+	box-shadow: 5px 8px 12px black;
+	opacity: 0.9;
+	
+}
+
+.btnTest{
+	position: absolute;
+	right: 40%;
+	left: 40%;
+	top: 55%;	
+	
+}
+
+.combinedbanner{
+	position: relative;
+	border-style: solid;
+}
+
+.joinus{
+	margin-top: 50px;
+	width:100px;
+	height:40px;
+	color: white;
+	background-color: #878c8f;
+	border-radius: 20px;
+	font-size: medium;
+	box-shadow: 5px 8px 12px black;
+	opacity: 0.9;
+}
+
+.combinedbanner .joinus:hover{
+	background-color: rgba(119, 5, 5, 0.3)
+}
+
+.events{
+	text-align: justify;
+	color:rgb(60, 56, 56);
+	background-color: antiquewhite;
+	padding: 1rem;
+	border-radius: 20px;
+	border-style: solid;
+	list-style: none;
+}
+
+.events ul{
+	list-style: none;
+}
+.weather{
+	text-align: justify;
+	color:rgb(60, 56, 56);
+	background-color: antiquewhite;
+	padding: 1rem;
+	border-radius: 20px;
+	border-style: solid;
+	list-style: none;
+	
+}
+
+.spotlights{
+	text-align: justify;
+	color:rgb(60, 56, 56);
+	background-color: antiquewhite;
+	padding: 1rem;
+	border-radius: 20px;
+	border-style: solid;
+	list-style: none;
+	
+}
+
+.news{
+	color:rgb(60, 56, 56);
+	background-color: antiquewhite;
+	padding: 1rem;
+	border-radius: 20px;
+	border-style: solid;
+	list-style: none;
+	text-align: justify;
+}
