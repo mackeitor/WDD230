@@ -1,22 +1,22 @@
 * {
 	box-sizing: border-box;
 }
-main{
+
+main {
 	background-color: #c4cad0;
 	text-align: center;
 }
 
 header {
 	background-color: #655560;
-	padding: 12px;
+	padding: 10px;
 	border-style: solid;
-	
 }
 
 header .header1 {
 	display:flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 .header1 img {
@@ -31,8 +31,9 @@ header .header1 {
 }
 
 .header1 .headings h1 {
-	margin-bottom: 10px;
+	margin-bottom: 8px;
 	font-weight: bold;
+	font-size: 20px;
 }
 
 .header1 .headings h2 {
@@ -49,18 +50,19 @@ header .header1 {
 	transition: 0.2s;
 	text-decoration: none;
 }
-.facebook{
-	
+
+.facebook {
 	padding: 5px;
 	color: rgb(208, 117, 60)
-	
+
 }
-.twitter{
+
+.twitter {
 	padding: 5px;
 	color: rgb(208, 117, 60)
-	
 }
-.social-media :hover{
+
+.social-media :hover {
 	color:#333;
 }
 
@@ -84,7 +86,7 @@ footer {
 	border-color: black;
 }
 
-footer img  {
+footer img {
 	margin-bottom: 10px;
 	width: 60px;
 	box-shadow: 5px 8px 12px black;
@@ -112,30 +114,27 @@ footer h3 {
 	justify-content: center;
 }
 
-
 #lastModified {
 	text-align: center;
 	font-size: smaller;
 }
 
 
-
-nav button{
-    margin: .2rem 2vw;
-    background: transparent;
-    border: none;
-    font-size: 2rem;
-    color: white;
+nav button {
+  margin: .2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: white;
 	box-shadow: 5px 8px 12px black;
 }
 
-
 /*removing borders*/
-nav ul{
-    
-    padding: 0;
-    margin: 0;
+nav ul {
+  padding: 0;
+  margin: 0;
 }
+
 /*clickable*/
 nav ul li a{
     display: block;
@@ -143,34 +142,35 @@ nav ul li a{
     text-decoration: none;
     color: white;
     border-top: 1px solid rgba(0,0,0.5);
-	
+
 }
 
 nav ul li.active a {
-    background-color: rgba(0,0,0,0.2);
-    color: #fff;
+  background-color: rgba(0,0,0,0.2);
+  color: #fff;
 }
 
 nav ul li a:hover {
-    background-color: rgba(0,0,0,0.3)
+  background-color: rgba(0,0,0,0.3)
 }
+
 /*open and close the toggle menu*/
 nav ul {display: none;}
 nav ul.open {display: block;}
+
 /*hiding the X or toggle menu*/
-#hamburguerBtn span:nth-child(1) {display: block;}
-#hamburguerBtn span:nth-child(2) {display: none;}
+#hamburguerBtn span:nth-child(1) { display: block; }
+#hamburguerBtn span:nth-child(2) { display: none; }
+#hamburguerBtn.open span:nth-child(1) { display: none; }
+#hamburguerBtn.open span:nth-child(2) { display: block; }
 
-#hamburguerBtn.open span:nth-child(1) {display: none;}
-#hamburguerBtn.open span:nth-child(2) {display: block;}
-
-.mainimg{
+.mainimg {
 	width: 100%;
 	height:300px;
 	object-fit: cover;
 }
 
-.picheader{
+.picheader {
 	position: absolute;
 	top: 20px;
 	background-color: #878c8f;
@@ -181,23 +181,21 @@ nav ul.open {display: block;}
 	border-radius: 20px;
 	box-shadow: 5px 8px 12px black;
 	opacity: 0.9;
-	
 }
 
-.btnTest{
+.btnTest {
 	position: absolute;
 	right: 40%;
 	left: 40%;
-	top: 55%;	
-	
+	top: 55%;
 }
 
-.combinedbanner{
+.combinedbanner {
 	position: relative;
 	border-style: solid;
 }
 
-.joinus{
+.joinus {
 	margin-top: 50px;
 	width:100px;
 	height:40px;
@@ -209,11 +207,11 @@ nav ul.open {display: block;}
 	opacity: 0.9;
 }
 
-.combinedbanner .joinus:hover{
+.combinedbanner .joinus:hover {
 	background-color: rgba(119, 5, 5, 0.3)
 }
 
-.events{
+.events {
 	text-align: justify;
 	color:rgb(60, 56, 56);
 	background-color: antiquewhite;
@@ -223,21 +221,11 @@ nav ul.open {display: block;}
 	list-style: none;
 }
 
-.events ul{
+.events ul {
 	list-style: none;
-}
-.weather{
-	text-align: justify;
-	color:rgb(60, 56, 56);
-	background-color: antiquewhite;
-	padding: 1rem;
-	border-radius: 20px;
-	border-style: solid;
-	list-style: none;
-	
 }
 
-.spotlights{
+.combinedweather {
 	text-align: justify;
 	color:rgb(60, 56, 56);
 	background-color: antiquewhite;
@@ -245,10 +233,21 @@ nav ul.open {display: block;}
 	border-radius: 20px;
 	border-style: solid;
 	list-style: none;
-	
 }
 
-.news{
+.spotlights {
+	text-align: justify;
+	color:rgb(60, 56, 56);
+	background-color: antiquewhite;
+	padding: 1rem;
+	border-radius: 20px;
+	border-style: solid;
+	list-style: none;
+}
+
+ 
+
+.news {
 	color:rgb(60, 56, 56);
 	background-color: antiquewhite;
 	padding: 1rem;
@@ -257,3 +256,8 @@ nav ul.open {display: block;}
 	list-style: none;
 	text-align: justify;
 }
+
+.opening{
+	display: none;
+}
+

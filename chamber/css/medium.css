@@ -1,0 +1,38 @@
+@media (min-width: 575px) {
+  header .header1{
+    display: flex;
+    justify-content: space-around;
+  }
+  .spotlights {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px
+  }
+
+  .spotlight {
+    background-color: rgb(126, 147, 193);
+    border-color: black;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 1rem;
+  }
+
+  .combinedweather {
+    display: grid;
+    grid-template-columns: 35% 62.2%;
+    column-gap: 20px;
+  }
+  .weather{
+    background-color: rgb(126, 147, 193);
+    border-color: black;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 1rem;
+  }
+
+  .header1 .headings h1 {
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 35px;
+  }
+}

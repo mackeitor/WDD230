@@ -1,4 +1,16 @@
-@media screen and (max-width: 952px){
+@media screen and (max-width: 580px) {
     
+    .spotlights {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .spotlight{
+        border-color: black;
+        padding: 1rem;
+    }
     
+    .spotlight {
+        color: blue;
+    } 
 }

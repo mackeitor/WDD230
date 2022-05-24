@@ -1,0 +1,24 @@
+@media (min-width: 975px) {
+    .primaryNav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 30% 40% 30%;
+        grid-template-rows: 3;
+    }
+
+    .combinedbanner{
+        grid-column-start: 2;
+    }
+
+    .events{
+        grid-column-start: 1;
+        grid-row: 1;
+    }
+
+
+
+}
