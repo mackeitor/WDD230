@@ -13,6 +13,7 @@ document.querySelector(
 function toggleMenu(){
     document.getElementById('primaryNav').classList.toggle('open');
     document.getElementById('hamburguerBtn').classList.toggle('open');
+    document.getElementById("headertop").classList.toggle('openheader');
 
 }
 const x = document.getElementById('hamburguerBtn')

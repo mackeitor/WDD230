@@ -1,24 +1,41 @@
 @media (min-width: 975px) {
     .primaryNav{
-        display: flex;
+        display: inline-block;
         justify-content: space-between;
     }
-
-    main{
-        display: grid;
-        grid-template-columns: 30% 40% 30%;
-        grid-template-rows: 3;
+   
+    #hamburguerBtn{
+        display: none;
     }
 
-    .combinedbanner{
+    main {
+        display: grid;
+        grid-template-columns: 25% 49.3% 25%;
+        grid-template-rows: 3;
+        grid-gap: 5px;
+    }
+
+    .combinedbanner {
         grid-column-start: 2;
     }
 
-    .events{
+    .events {
         grid-column-start: 1;
         grid-row: 1;
     }
+    .spotlights {
+        display: block;
+        
+    }
+    
+    nav ul {
+        display: inline-flex;
+        list-style: none;
+    }
 
-
-
+    .social-media i {
+        font-size: 30px;
+    }
+  
+    
 }

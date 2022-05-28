@@ -1,0 +1,23 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.cities {
+    list-style: none;
+    padding: 0;
+}
+.cities .city-name {
+    font-size: 1.3em;
+}
+.cities .city-name > sup {
+    font-size: 0.6em;
+}
+
+.cities .city-temp {
+    font-size: 3rem;
+    font-weight: 900;
+}
+.cities figure {
+    padding: 0;
+    margin: 0;
+}

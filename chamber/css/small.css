@@ -136,12 +136,15 @@ nav ul {
 }
 
 /*clickable*/
+nav ul li {
+	border-bottom: 1px solid rgba(0,0,0.5);
+}
 nav ul li a{
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
     color: white;
-    border-top: 1px solid rgba(0,0,0.5);
+    /* border-top: 1px solid rgba(0,0,0.5); */
 
 }
 
@@ -154,9 +157,22 @@ nav ul li a:hover {
   background-color: rgba(0,0,0,0.3)
 }
 
+.openheader {
+	margin-top: 180px;
+}
+
 /*open and close the toggle menu*/
 nav ul {display: none;}
-nav ul.open {display: block;}
+nav ul.open {
+	display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: 9999;
+    list-style: none;
+    top: 0;
+    padding: 10;
+}
 
 /*hiding the X or toggle menu*/
 #hamburguerBtn span:nth-child(1) { display: block; }
@@ -260,4 +276,3 @@ nav ul.open {display: block;}
 .opening{
 	display: none;
 }
-
